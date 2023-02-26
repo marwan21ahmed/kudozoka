@@ -1,0 +1,259 @@
+*
+{border: 1px soli;
+   transition: all;
+   transition-duration: 1s;
+   cursor: url(../photo/defualtmousicon.png),default;
+}
+*::selection
+{
+color:none;
+background-color: transparent;
+}
+html,body
+{
+   overflow-x: hidden;
+   height: 100%;
+   margin: 0px;
+}
+.chartframe
+{
+    position: relative;
+    z-index: -1;
+    height:55vw;
+}
+.sliderframe
+{
+    position: relative;
+    height:40vw;
+}
+.footerframe
+{
+    position: relative;
+    top: -17vw;
+    z-index: -1;
+    margin-bottom:-50%;
+    height:46vw;
+}
+
+@media screen and (max-width:1366px) {
+.sliderframe
+{
+    position: relative;
+    height:40vw;
+}
+.footerframe
+{
+    position: relative;
+    top: -23vw;
+    z-index: -1;
+    margin-bottom:-40vw;
+    height:58vw;
+}
+}
+@media screen and (max-width:1330px) {
+.chartframe
+{
+    position: relative;
+    z-index: -1;
+    height:60vw;
+}
+}
+@media screen and (max-width:1250px) {
+    .chartframe
+    {
+        position: relative;
+        z-index: -1;
+        height:60vw;
+    }
+    .sliderframe
+    {
+        position: relative;
+        height:40vw;
+    }
+.footerframe
+{
+    position: relative;
+    top: -40vw;
+    z-index: -1;
+    margin-bottom:-74vw;
+    height:68vw;
+}
+}
+
+@media screen and (max-width:1050px) {
+    .chartframe
+    {
+        position: relative;
+        z-index: -1;
+        height:70vw;
+    }
+    .sliderframe
+    {
+        position: relative;
+        height:45vw;
+    }
+.footerframe
+{
+    position: relative;
+    top: -35vw;
+    z-index: -2;
+    margin-bottom:-40vw;
+}
+}
+
+@media screen and (max-width:992px) {
+    .chartframe
+    {
+        position: relative;
+        top: 5vw;
+        z-index: -1;
+        height:130vw;
+    }
+    .sliderframe
+    {
+        position: relative;
+        top: 0vw;
+        height:50%;
+    }
+.footerframe
+{
+    position: relative;
+    top: -35vw;
+    z-index: -2;
+    margin-bottom:-50vw;
+    height: 78vw;
+}
+}
+
+
+@media screen and (max-width:900px) {
+    .chartframe
+    {
+        position: relative;
+        z-index: -1;
+        height:140vw;
+    }
+    .sliderframe
+    {
+        position: relative;
+        top: -5vw;
+        height:40vw;
+    }
+.footerframe
+{
+    position: relative;
+    top: -47vw;
+    z-index: -2;
+    margin-bottom:-50vw;
+    height: 85vw;
+}
+}
+@media screen and (max-width:808px) {
+    .chartframe
+    {
+        position: relative;
+        z-index: -1;
+        height:165vw;
+    }
+    .sliderframe
+    {
+        position: relative;
+        height:40vw;
+    }
+.footerframe
+{
+    position: relative;
+    top: -50vw;
+    z-index: -2;
+    margin-bottom:-54vw;
+    height: 95vw;
+}
+}
+@media screen and (max-width:768px) {
+    .chartframe
+    {
+        position: relative;
+        z-index: -1;
+        height:160vw;
+    }
+    .sliderframe
+    {
+        position: relative;
+        height:40vw;
+    }
+.footerframe
+{
+    position: relative;
+    top: -45vw;
+    z-index: -2;
+    margin-bottom:-50vw;
+
+}
+}
+@media screen and (max-width:750px) {
+    .chartframe
+    {
+        position: relative;
+        z-index: -1;
+        height:180vw;
+    }
+    .sliderframe
+    {
+        position: relative;
+        height:40vw;
+    }
+.footerframe
+{
+    position: relative;
+    top: -58vw;
+    z-index: -2;
+    margin-bottom:-60vw;
+    height: 105vw;
+}
+}
+
+@media screen and (max-width:700px) {
+    .chartframe
+    {
+        position: relative;
+        top: 5vw;
+        z-index: -1;
+        height:175vw;
+    }
+    .sliderframe
+    {
+        position: relative;
+        height:45vw;
+    }
+    .footerframe
+    {
+        position: relative;
+        top: -57vw;
+        z-index: -1;
+        margin-bottom:-60vw;
+        height: 100vw;
+    }
+
+}
+@media screen and (max-width:624px) {
+    .chartframe
+    {
+        position: relative;
+        z-index: -1;
+        height:190vw;
+    }
+    .sliderframe
+    {
+        position: relative;
+        height:45vw;
+    }
+    .footerframe
+    {
+        position: relative;
+        top: -67vw;
+        z-index: -2;
+        margin-bottom:-70vw;
+        height: 120vw;
+    }
+
+}

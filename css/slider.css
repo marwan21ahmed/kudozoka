@@ -1,0 +1,400 @@
+*
+{
+    cursor: url(../photo/defualtmousicon.png),default;
+}
+@font-face
+{        
+    font-family:"Font Awesome 5 Free";
+    font-style:normal;
+    font-weight:100;
+    src:url(../font/font_awesome/fa-solid-900.eot);
+    src:url(../font/font_awesome/fa-solid-900.eot?#iefix) format("embedded-opentype"),
+    url(../font/font_awesome/fa-solid-900.woff2) format("woff2"),
+    url(../font/font_awesome/fa-solid-900.woff) format("woff"),
+    url(../font/font_awesome/fa-solid-900.ttf) format("truetype"),
+    url(../font/font_awesome/fa-solid-900.svg#fontawesome) format("svg")
+}
+.container
+{
+    display: flex;
+    max-width: 80%;
+}
+.swiper
+{
+    width: 20%;
+}
+.midleslider
+{
+    width: 45%;
+}
+.swiper-slide
+{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.imgfix
+{
+    margin-bottom: -11.5%;
+}
+.imgfix2
+{
+    margin-bottom: -1%;
+}
+.subsliderpos
+{
+    position: relative;
+    bottom: 11%;
+}
+
+
+.textslider
+{
+margin-top: 0px;
+height: 16vw;
+padding-top: 2%;
+padding-bottom: 0px;
+}
+.textslide
+{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    flex-direction: column;
+    height: 200px;
+}
+.textslide>span
+{
+display: block;
+width: 100%;
+text-align: center;
+font-size: 115%;
+font-weight: 500;
+color: rgb(97, 97, 97);
+margin-bottom: 7%;
+}
+.textslide>span+.text1
+{
+display: block;
+width: 55%;
+text-align: center;
+font-size: 97%;
+font-weight: 0;
+color: rgb(141, 141, 141);
+}
+.textslide>span+span
+{
+display: block;
+width: 80%;
+text-align: center;
+font-size: 90%;
+font-weight: 0;
+color: rgb(141, 141, 141);
+}
+.controller
+{
+width: 78.1%;
+height: 42.5vw;
+position: absolute;
+z-index: 5;
+display: flex;
+justify-content: center;
+align-items: flex-end;
+}
+
+.swiper-next-button,.swiper-prev-button
+{
+    margin-bottom: 22%;
+    font-family:"Font Awesome 5 Free";
+    font-size: 20px;
+    color: rgb(148, 148, 148);
+    cursor: url(../photo/pointaermousicon.png),pointer;
+}
+.swiper-next-button::selection
+,.swiper-prev-button::selection
+{
+    background-color: transparent;
+}
+.swiper-next-button
+{
+margin-right: 22%;
+}
+.swiper-prev-button
+{
+margin-left: 22%;
+}
+
+
+
+@media screen and (max-width:1700px) {
+    .textslide>span
+    {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 110%;
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+    margin-bottom: 7%;
+    }
+    .textslide>span+.text1
+    {
+    display: block;
+    width: 62%;
+    text-align: center;
+    font-size: 90%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+    .textslide>span+span
+    {
+    display: block;
+    width: 80%;
+    text-align: center;
+    font-size: 80%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+}
+
+@media screen and (max-width:1600px) {
+    .textslide>span
+    {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 110%;
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+    margin-bottom: 7%;
+    }
+    .textslide>span+.text1
+    {
+    display: block;
+    width: 65%;
+    text-align: center;
+    font-size: 90%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+    .textslide>span+span
+    {
+    display: block;
+    width: 80%;
+    text-align: center;
+    font-size: 80%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+}
+
+@media screen and (max-width:1500px) {
+    .textslide>span
+    {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 110%;
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+    margin-bottom: 7%;
+    }
+    .textslide>span+.text1
+    {
+    display: block;
+    width: 68%;
+    text-align: center;
+    font-size: 90%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+    .textslide>span+span
+    {
+    display: block;
+    width: 90%;
+    text-align: center;
+    font-size: 80%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .textslide>span
+    {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 110%;
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+    margin-bottom: 7%;
+    }
+    .textslide>span+.text1
+    {
+    display: block;
+    width: 72%;
+    text-align: center;
+    font-size: 90%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+    .textslide>span+span
+    {
+    display: block;
+    width: 80%;
+    text-align: center;
+    font-size: 80%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+}
+@media only screen and (max-width:1250px) {
+    .textslide>span
+    {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 110%;
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+    margin-bottom: 7%;
+    }
+    .textslide>span+.text1
+    {
+    display: block;
+    width: 90%;
+    text-align: center;
+    font-size: 80%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+    .textslide>span+span
+    {
+    display: block;
+    width: 90%;
+    text-align: center;
+    font-size: 80%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+}
+@media only screen and (max-width:1200px) {
+  
+    .textslide>span+.text1
+    {
+    display: block;
+    width: 76%;
+    text-align: center;
+    font-size: 80%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+}
+
+@media only screen and (max-width:992px) {
+    .textslide>span
+    {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 80%;
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+    margin-bottom: 7%;
+    }
+    .textslide>span+.text1
+    {
+    display: block;
+    width: 80%;
+    text-align: center;
+    font-size: 70%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+    .textslide>span+span
+    {
+    display: block;
+    width: 90%;
+    text-align: center;
+    font-size: 70%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+}
+@media only screen and (max-width:768px) {
+    .textslide>span
+    {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 75%;
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+    margin-bottom: 7%;
+    }
+    .textslide>span+.text1
+    {
+    display: block;
+    width: 90%;
+    text-align: center;
+    font-size: 60%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+    .textslide>span+span
+    {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 60%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+}
+@media only screen and (max-width:650px) {
+    .textslide>span
+    {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 50%;
+    font-weight: 500;
+    color: rgb(97, 97, 97);
+    margin-bottom: 7%;
+    }
+    .textslide>span+.text1
+    {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 40%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+    .textslide>span+span
+    {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 40%;
+    font-weight: 0;
+    color: rgb(141, 141, 141);
+    }
+    .swiper-next-button
+    {
+    margin-right: 21%;
+    margin-bottom: 22%;
+    font-family:"Font Awesome 5 Free";
+    font-size: 20px;
+    color: rgb(148, 148, 148);
+    }
+    .swiper-prev-button
+    {
+    margin-left: 21%;
+    margin-bottom: 22%;
+    font-family:"Font Awesome 5 Free";
+    font-size: 20px;
+    color: rgb(148, 148, 148);
+    }
+}
